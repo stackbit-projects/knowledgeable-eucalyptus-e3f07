@@ -28,7 +28,8 @@
                 "url": "/contact",
                 "style": "primary"
             }
-        ]
+        ],
+        "logo": "images/marie-logo.svg"
     },
     "footer": {
         "has_nav": true,
