@@ -2,35 +2,31 @@
  * Site Header
  */
 .site-header {
-  border-bottom: 1px solid $color-border;
-  padding-bottom: 1.125rem;
-  padding-top: 1.125rem;
+  padding-bottom: 0.8rem;
+  padding-top: 0.8rem;
+  background-color: $color-background-light;
 }
 
 .navbar {
-  align-items: center;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .navbar__logo,
 .navbar__title {
   flex: 0 1 auto;
-  margin: 0 1.25rem 0 0;
   text-decoration: none;
 }
 
 .navbar__logo {
-  img {
-    max-height: 2rem;
-  }
-}
-
-.navbar__menu {
-  margin-left: auto;
+    width: 32px;
+    height: 32px;
 }
 
 .navbar__item {
-  font-size: 0.875em;
+  font-size: 16px;
+  font-weight: $font-weight--bold;
 }
 
 @include media-breakpoint-up(md) {

@@ -40,6 +40,7 @@ export default class Header extends React.Component {
                       </div>
                     </div>
                   </div>
+                  <Link className="navbar__item navbar__item--btn btn" to={withPrefix('/')}>Kontakt mig</Link>
                   </React.Fragment>)}
                 </nav>
               </div>

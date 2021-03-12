@@ -12,18 +12,30 @@
 
     &.is-active {
       color: $color-nav-link-active;
+
+      a {
+        background: transparent;
+        border-radius: 10px;
+        height: 3px;
+        width: 100%;
+        box-shadow: 0 22px 0 0 $color-highlight;
+      }
     }
   }
 
   a {
     &:not(.btn) {
       border: 0;
-      color: inherit;
+      color: $color-text;
       display: inline-block;
       text-decoration: none;
 
       &:hover {
-        color: $color-nav-link-hover;
+        background: transparent;
+        border-radius: 10px;
+        height: 3px;
+        width: 100%;
+        box-shadow: 0 22px 0 0 $color-highlight;
       }
     }
   }
